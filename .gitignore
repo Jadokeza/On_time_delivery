@@ -1,0 +1,35 @@
+# Data — do not commit raw datasets
+data/*
+!data/.gitkeep
+!data/README.md
+*.csv
+*.xlsx
+
+# Model artifacts
+models/*
+!models/.gitkeep
+*.pkl
+*.joblib
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.Python
+build/
+dist/
+
+# Environments
+venv/
+env/
+.venv/
+.env
+
+# Notebooks
+.ipynb_checkpoints/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
